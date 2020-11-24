@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>PaintJS</title>
+	</head>
+	<body>
+		<header>Draw your dreams</header>
+		<div class="top-controls">
+			<button id="js-mode">FILL</button>
+			<button id="js-save">SAVE</button>
+		</div>
+		<div class="top-controls__range">
+			<input type="range" id="js-range" min="0.01" max="10.0" value="2.5" step="0.001" />
+		</div>
+		<canvas id="js-canvas" class="canvas"></canvas>
+		<div class="controls">
+			<div class="controls__colors" id="js-colors">
+				<div class="controls__color js-color" style="background-color: #55efc4"></div>
+				<div class="controls__color js-color" style="background-color: #81ecec"></div>
+				<div class="controls__color js-color" style="background-color: #74b9ff"></div>
+				<div class="controls__color js-color" style="background-color: #a29bfe"></div>
+				<div class="controls__color js-color" style="background-color: #dfe6e9"></div>
+				<div class="controls__color js-color" style="background-color: #00b894"></div>
+				<div class="controls__color js-color" style="background-color: #00cec9"></div>
+				<div class="controls__color js-color" style="background-color: #0984e3"></div>
+				<div class="controls__color js-color" style="background-color: #6c5ce7"></div>
+				<div class="controls__color js-color" style="background-color: #b2bec3"></div>
+			</div>
+			<div class="controls__colors" id="js-colors">
+				<div class="controls__color js-color" style="background-color: #ffeaa7"></div>
+				<div class="controls__color js-color" style="background-color: #fab1a0"></div>
+				<div class="controls__color js-color" style="background-color: #ff7675"></div>
+				<div class="controls__color js-color" style="background-color: #fd79a8"></div>
+				<div class="controls__color js-color" style="background-color: #636e72"></div>
+				<div class="controls__color js-color" style="background-color: #fdcb6e"></div>
+				<div class="controls__color js-color" style="background-color: #e17055"></div>
+				<div class="controls__color js-color" style="background-color: #d63031"></div>
+				<div class="controls__color js-color" style="background-color: #e84393"></div>
+				<div class="controls__color js-color" style="background-color: #2d3436"></div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
